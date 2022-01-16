@@ -1,0 +1,87 @@
+@font-face {
+  font-family: popins;
+  src: url("/font/Poppins-Regular.ttf");
+}
+
+.green-c { color: green; }
+.red-c { color: red; }
+
+.badge-primary { background-color: #0080C0; }
+.badge-success { background-color: green; }
+
+.talign-l { text-align: left!important; }
+.talign-r { text-align: right!important; }
+.talign-c { text-align: center!important; }
+
+.marg5 { margin-top: 5px; margin-bottom: 5px; }
+.pad10 { padding: 10px; }
+
+.taligntable-l tr td, .taligntable-l tr td { text-align: left!important; }
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: popins;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.header {
+    padding: 10px;
+    background-color: #2a3042;
+    color: white;
+    margin: 0;
+}
+
+.header p { margin: 0; font-size: 1.4em; }
+
+.menu { width: 100%; margin: 0; padding: 0; background-color: white; }
+.navbar { width: 100%; float: left; border-bottom: 1px solid #DFDFDF; margin: 0; }
+.nav-item { padding: 2px 15px 2px 15px; }
+
+.barmenu { text-align: right; }
+.barmenu i { font-size: 1.4em!important; }
+
+.logout { color: red!important; }
+
+h2 { margin: 20px 0 20px 0; padding: 0; text-align: center; }
+
+.listView table tr td, .listView table tr th { text-align: center; }
+.listView table tr th { background-color: #39495E; color: white; font-weight: normal; }
+.listView table tr td:first { text-align: left; }
+.listView table tr td:last-child { text-align: right; }
+.listView table tr td { font-size: 1em; }
+.listView table tr { background-color: #f5f5f5; }
+.listView table tr:hover { background-color: #e5e5e5; }
+
+.table-internal tr th { background-color: #DFDFDF!important; color: #39495E!important; font-weight: bold; text-align: left!important; font-size: 0.9em!important; }
+.table-internal td { font-size: 0.9em!important; text-align: left!important; }
+
+.badge { font-weight: normal; }
+
+.content { background-color: white; margin: 0; }
+.site-index { min-height: 700px; }
+
+
+.buttons-nav { margin-bottom: 10px; }
+.buttons-nav > input, .buttons-nav > select, .buttons-nav > button { margin-top: 5px; }
+
+.login { background-color: #EFEFEF; padding: 20px; }
+.addForm { background-color: #EFEFEF; padding: 20px; }
+
+.addForm p { padding: 5px; }
+
+.dashboard { background-color: #EFEFEF; }
+.dashboard h3 { text-align: center; }
+
+#products { margin-bottom: 40px; }
+.product { margin: 5px 0px 5px 0px; }

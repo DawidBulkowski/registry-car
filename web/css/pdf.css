@@ -1,0 +1,16 @@
+.content { font-family: popins; }
+
+.row { width: 100%; float: left; }
+.half { width: 50%; float: left; }
+
+.talignr { text-align: right; }
+
+table { width: 100%; text-align: center; font-family: popins; font-size: 0.9em; }
+table tr:nth-child(even) { background-color: #EFEFEF; }
+table tr td { padding: 2px; font-family: popins!important; }
+
+.talign-l { text-align: left!important; }
+.talign-r { text-align: right!important; }
+
+.header { text-align: center; font-size: 1.4em; margin-bottom: 0; font-family: popins; }
+.header2 { text-align: center; margin: 0 0 40px 0; padding: 0; font-size: 1em; }
